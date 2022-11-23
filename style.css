@@ -65,7 +65,7 @@ h1 {
   margin: 1rem;
   padding: 1rem;
   margin-bottom: 3rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .footer {
@@ -79,6 +79,7 @@ h1 {
 
 .footer-text {
   font-size: 1.6rem;
+  text-align: center;
 }
 
 .footer-title {
