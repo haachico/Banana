@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  /* margin-bottom: 4rem; */
+  background-color: #fcd34d;
+  /* height: 8rem; */
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+/* .container {
+  margin: 0rem auto 4rem auto;
+  text-align: center;
+} */
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  /* background-color: green; */
+  /* margin-top: 4rem; */
+}
+
+.text-input {
+  width: 50%;
+  height: 15rem;
+  /* display: inline-block; */
+  padding: 1rem;
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+}
+
+.btn {
+  /* display: block; */
+  padding: 15px 30px;
+  /* margin-bottom: 2rem; */
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: #fcd34d;
+  border: none;
+  font-weight: 500;
+  font-family: "Kalam", cursive;
+}
+
+.output-text {
+  font-size: 1.8rem;
+}
+.text-output {
+  border: 1px solid black;
+  width: 50%;
+  height: 9rem;
+  margin: 1rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: #fcd34d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 18rem;
+  height: 100%;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+}
+
+.footer-title {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
