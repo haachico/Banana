@@ -9,9 +9,8 @@ function getTranslationURL(input) {
 }
 
 function errorHandler() {
-  console.log(
-    `There might be some issues with the server. Please try again in sometime`
-  );
+  textOutput.innerText = `There might be some issues with the server. Please try again in sometime.`;
+  textOutput.style.color = "red";
 }
 function clickHandler() {
   const inputText = textInput.value;
